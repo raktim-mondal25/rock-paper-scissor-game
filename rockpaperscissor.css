@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color: whitesmoke;
+    height: 5rem;
+    line-height: 5rem;
+    /*to bring vertically in the center of the heading*/
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    /*to make sure that the after placing the cursor on the images it goes a little blur so that we can say that the iage is being clicked*/
+    cursor: pointer;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    /*to avoid shrinking of images so that it could be visible properly*/
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.scoreboaard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#user-score,
+#computer-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg-para {
+    background-color: #081b31;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: inline;
+    /*display only the text portion not the whole page*/
+    padding: 1rem;
+    border-radius: 1rem;
+}
